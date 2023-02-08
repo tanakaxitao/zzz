@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+
+    <title>formulario de cadastro</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>preencha o cadastro</h1>
+      <form id="form-cadastro">
+        <input
+          type="number"
+          id="campo-a"
+          required
+          placeholder="digite o número  A"
+        />
+        <input
+          type="number"
+          id="campo-b"
+          required
+          placeholder="digite o número B "
+        />
+        <p class="error-message">o número B precisa ser maior que o Número A</p>
+        <button type="submit" id="btn-submit">enviar cadastro</button>
+      </form>
+    </div>
+    <p class="sucess-message">tudo certo, você conseguiu!</p>
+    <script src="main.js"></script>
+  </body>
+</html>
