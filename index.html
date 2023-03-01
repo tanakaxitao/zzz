@@ -9,26 +9,31 @@
     <title>formulario de cadastro</title>
   </head>
   <body>
+    <div id="res"></div>
     <div class="container">
       <h1>preencha o cadastro</h1>
       <form id="form-cadastro">
         <input
           type="number"
-          id="campo-a"
+          id="TNA"
           required
           placeholder="digite o número  A"
         />
         <input
           type="number"
-          id="campo-b"
+          id="TNB"
           required
           placeholder="digite o número B "
         />
-        <p class="error-message">o número B precisa ser maior que o Número A</p>
-        <button type="submit" id="btn-submit">enviar cadastro</button>
+        <p id="error-message"></p>
+        <input
+          id="button"
+          type="button"
+          value="verificar"
+          onclick="verificar()"
+        />
       </form>
     </div>
-    <p class="sucess-message">tudo certo, você conseguiu!</p>
-    <script src="main.js"></script>
+    <script src="main2.js"></script>
   </body>
 </html>

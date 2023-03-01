@@ -34,7 +34,7 @@ button {
   resize: none;
 }
 
-button {
+#button {
   background-color: rgb(231, 42, 9);
   color: white;
   border: none;
@@ -45,22 +45,22 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+#button:hover {
   background-color: rgb(44, 12, 224);
 }
 
-.sucess-message {
-  background-color: rgb(12, 15, 192);
-  padding: 16px;
-  color: white;
-  display: none;
-}
-
-.error-message {
-  font-size: 12px;
+#error-message {
+  font-size: 20px;
   padding: 8px;
   background-color: red;
   color: white;
   margin-bottom: 8px;
-  display: none;
+}
+
+#res {
+  font-size: 18px;
+  background-color: rgb(12, 120, 192);
+  padding: 16px;
+  color: white;
+  margin-bottom: 8px;
 }
